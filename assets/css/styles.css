@@ -210,7 +210,7 @@ img {
   margin-bottom: .1rem;
 } 
 
-.perfil__button {
+.perfil__buttons {
   display: grid;
   column-gap: .5rem;
   grid-template-columns: repeat(2, 1fr);
