@@ -205,10 +205,16 @@ img {
   border: 2px solid hsla(0, 0%, 100%, .5); 
 }
 
-.perfil__name{
+.perfil__name {
   font: var(--font-regular) var(--biggest-font-size) var(--second-font);
   margin-bottom: .1rem;
 } 
+
+.perfil__button {
+  display: grid;
+  column-gap: .5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 /*===== INFO =====*/
 
