@@ -259,6 +259,11 @@ img {
   justify-self: center;
   align-self: flex-end;
 }
+
+.info__description{
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
 /*===== ABOUT =====*/
 
 
