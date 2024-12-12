@@ -249,7 +249,7 @@ img {
 /* adjust image height and width */
 .info__image{
   background: var(--conic-gradient);
-  height: 250px;
+  height: 206px;
   border-radius: 2rem;
   display: grid;
   margin-block: 1.5rem;
@@ -304,7 +304,7 @@ img {
 
 .about__image{
   background: var(--conic-gradient);
-  height: 250px;
+  height: 206px;
   border-radius: 2rem;
   display: grid;
   overflow: hidden;
