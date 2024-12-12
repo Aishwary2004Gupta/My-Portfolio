@@ -236,7 +236,6 @@ img {
 
 .info__name{
   font: var(--font-semi-bold) var(--h1-font-size) var(--second-font);
-  margin: 1rem 0;
 }
 
 .info__data{
