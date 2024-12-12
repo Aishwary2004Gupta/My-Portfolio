@@ -315,6 +315,11 @@ img {
   /* transform: translate(-2.5rem); */
 }
 
+.about__note{
+  font-size: var(--small-font-size);
+  margin-block: 1rem 2rem;
+}
+
 /*===== SKILLS =====*/
 
 
