@@ -339,6 +339,18 @@ img {
   transform: translateY(-.25rem);
 }
 
+.skills__items{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block: 1.5rem;
+}
+
+.skills__description{
+  font-size: var(--small-font-size);
+}
+
 /*=============== BUTTON ===============*/
 .button {
   display: inline-flex;
