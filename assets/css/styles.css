@@ -295,6 +295,26 @@ img {
   place-items: center;
   transition: background-color .4s, color .4s;
 }
+
+.about__link:hover {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+
+.about__image{
+  background: var(--conic-gradient);
+  height: 250px;
+  border-radius: 2rem;
+  display: grid;
+  overflow: hidden;
+}
+
+.about__img {
+  width: 240px;
+  justify-self: center;
+  /* transform: translate(-2.5rem); */
+}
+
 /*===== SKILLS =====*/
 
 
