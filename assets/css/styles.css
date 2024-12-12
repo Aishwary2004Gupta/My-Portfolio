@@ -269,8 +269,20 @@ img {
 .info .button{
   width: 100%;
 }
-/*===== ABOUT =====*/
 
+/*===== ABOUT =====*/
+.about__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-regular);
+  margin-bottom: 1.5rem;
+}
+
+.about__social{
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  /* margin-bottom: 2rem; */
+}
 
 /*===== SKILLS =====*/
 
