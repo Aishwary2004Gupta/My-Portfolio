@@ -284,6 +284,17 @@ img {
   margin-block: 2rem;
 }
 
+.about__link {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: background-color .4s, color .4s;
+}
 /*===== SKILLS =====*/
 
 
