@@ -216,6 +216,10 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.perfil__buttons .button {
+  padding: .75rem 0;
+}
+
 /*===== INFO =====*/
 
 
