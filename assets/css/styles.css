@@ -241,6 +241,10 @@ img {
   background-color: var(--black-color);
 }
 
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
 /*=============== PROJECTS ===============*/
 
 
