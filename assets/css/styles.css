@@ -244,16 +244,21 @@ img {
   align-items: center;
   column-gap: .5rem;
 }
-
+/* make chnages to the image height and width */
 .info__image{
   background: var(--conic-gradient);
-  height: 550px;
+  height: 250px;
   border-radius: 2rem;
   display: grid;
   margin-block: 1.5rem;
   overflow: hidden;
 }
 
+.info__img {
+  width: 200px;
+  justify-self: center;
+  align-self: flex-end;
+}
 /*===== ABOUT =====*/
 
 
