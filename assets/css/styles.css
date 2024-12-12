@@ -244,7 +244,7 @@ img {
   align-items: center;
   column-gap: .5rem;
 }
-/* make chnages to the image height and width */
+/* adjust image height and width */
 .info__image{
   background: var(--conic-gradient);
   height: 250px;
