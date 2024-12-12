@@ -237,6 +237,10 @@ img {
   transition: background-color .4s;
 }
 
+.button__black {
+  background-color: var(--black-color);
+}
+
 /*=============== PROJECTS ===============*/
 
 
