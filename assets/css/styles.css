@@ -255,7 +255,7 @@ img {
 }
 
 .info__img {
-  width: 200px;
+  width: 240px;
   justify-self: center;
   align-self: flex-end;
 }
@@ -264,6 +264,8 @@ img {
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
+
+
 /*===== ABOUT =====*/
 
 
