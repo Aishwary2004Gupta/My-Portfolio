@@ -221,7 +221,11 @@ img {
 }
 
 /*===== INFO =====*/
-
+.info{
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 2rem;
+}
 
 /*===== ABOUT =====*/
 
