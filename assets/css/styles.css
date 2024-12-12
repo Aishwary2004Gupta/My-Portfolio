@@ -245,6 +245,15 @@ img {
   column-gap: .5rem;
 }
 
+.info__image{
+  background: var(--conic-gradient);
+  height: 550px;
+  border-radius: 2rem;
+  display: grid;
+  margin-block: 1.5rem;
+  overflow: hidden;
+}
+
 /*===== ABOUT =====*/
 
 
