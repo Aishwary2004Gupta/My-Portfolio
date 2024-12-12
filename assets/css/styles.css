@@ -221,7 +221,8 @@ img {
 }
 
 /*===== INFO =====*/
-.info{
+.info,
+.about{
   background-color: var(--container-color);
   padding: 2rem 1.5rem;
   border-radius: 2rem;
