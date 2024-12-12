@@ -227,6 +227,13 @@ img {
   border-radius: 2rem;
 }
 
+.info__circle{
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
 /*===== ABOUT =====*/
 
 
