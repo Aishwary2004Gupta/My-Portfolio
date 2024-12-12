@@ -265,7 +265,9 @@ img {
   margin-bottom: 2rem;
 }
 
-
+.info .button{
+  width: 100%;
+}
 /*===== ABOUT =====*/
 
 
