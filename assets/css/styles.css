@@ -167,7 +167,7 @@ img {
   width: 2.5rem;
   height: 2.5rem;
   background-color: transparent;
-  color: var(--green-color);
+  color: var(--white-color);
   font-size: 1.5rem;
   display: grid;
   place-items: center;
