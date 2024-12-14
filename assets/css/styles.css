@@ -464,6 +464,13 @@ img {
   z-index: var(--z-tooltip);
 }
 
+.coding__icon img {
+  width: 4rem;
+  height: auto;
+  position: relative;
+  z-index: var(--z-tooltip);
+}
+
 .coding__circle{
   width: 3rem;
   height: 3rem;
