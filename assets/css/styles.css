@@ -160,7 +160,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* color: var(--white-color); */
 }
 
 .nav__link {
@@ -169,13 +168,16 @@ img {
   background-color: transparent;
   color: var(--white-color);
   font-size: 1.5rem;
+  border-radius: 50%;
   display: grid;
   place-items: center;
   transition: background-color .6s;
 }
 
 /* Active link */
-
+.active-link{
+  background-color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 /*===== PERFIL =====*/
@@ -674,7 +676,7 @@ img {
 
 /* Show Scroll Up */
 .show-scroll{
-  bottom: 10rem;
+  bottom: 8rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
