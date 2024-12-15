@@ -11,7 +11,7 @@ const sendEmail = (e) => {
     emailjs.sendForm('service_a363o6c', 'template_vk5lomp', '#contact-form', 'Ms7jlE298nKUS26Pm')
     .then(() => {
         // Success message
-        contactMessage.textContent = 'Message sent successfully! 🫡';
+        contactMessage.textContent = 'Message sent successfully! ✅';
 
         // Clear message after 5 seconds
         setTimeout(() => {
@@ -20,6 +20,8 @@ const sendEmail = (e) => {
 
         // Reset the form
         contactForm.reset();
+    }, () =>{
+        contactMessage.textContent = 'Message not sent (service error) ❌';
     })
 };
 
