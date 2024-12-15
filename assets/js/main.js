@@ -8,7 +8,7 @@ const sendEmail = (e) => {
     e.preventDefault();
 
     // Send form data via EmailJS
-    emailjs.sendForm('service_a363o6c', 'template_n0nc739', '#contact-form', 'Ms7jlE298nKUS26Pm')
+    emailjs.sendForm('service_a363o6c', 'template_vk5lomp', '#contact-form', 'Ms7jlE298nKUS26Pm')
     .then(() => {
         // Success message
         contactMessage.textContent = 'Message sent successfully! 🫡';
