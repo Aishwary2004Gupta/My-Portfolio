@@ -844,4 +844,9 @@ img {
     right: -1.5rem;
     top: -1.5rem;
   }
+
+  .experience__container{
+    grid-template-columns: 300px 510px;
+    column-gap: 8rem;
+  }
 }
