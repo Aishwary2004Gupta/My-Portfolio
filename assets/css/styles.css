@@ -821,7 +821,7 @@ img {
   }
 
   .projects__container{
-    grid-template-columns: repeat(3, 300px, 300px);
+    grid-template-columns: repeat(3, 300px);
     gap: 3.5rem;
   }
   .projects__card{
@@ -829,8 +829,19 @@ img {
   }
 
   .coding__container{
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(3, 300px);
     gap: 3.5rem;
   }
-  
+  .coding__card{
+    padding-bottom: 6rem 5rem;
+  }
+  .coding__icon i{
+    font-size: 2.7rem;
+  }
+  .coding__circle{
+    width: 3.5rem;
+    height: 3.5rem;
+    right: -1.5rem;
+    top: -1.5rem;
+  }
 }
