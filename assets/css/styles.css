@@ -894,6 +894,6 @@ img {
     right: 3rem;
     top: 0;
     bottom: 0;
-    margin-bottom: auto;
+    margin-block: auto;
   }
 }
