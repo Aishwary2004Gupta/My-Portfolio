@@ -69,5 +69,6 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal('.perfil', '.contact__form')
+sr.reveal('.perfil, .contact__form')
 sr.reveal('.info', {origin: 'left', delay: 800})
+sr.reveal('.skills', {origin: 'right', delay: 1000})
