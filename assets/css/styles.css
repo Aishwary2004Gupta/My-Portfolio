@@ -852,4 +852,11 @@ img {
     grid-template-columns: 350px 510px;
     column-gap: 8rem;
   }
+  .experience__company{
+    font-size: var(--h1-font-size);
+  }
+  .experience__data{
+    padding: 2rem;
+    border-radius: 2rem;
+  }
 }
