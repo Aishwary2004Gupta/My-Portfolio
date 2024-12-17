@@ -896,4 +896,8 @@ img {
     bottom: 0;
     margin-block: auto;
   }
+  .nav__list{
+    flex-direction: column;
+    row-gap: 1.25rem;
+  }
 }
