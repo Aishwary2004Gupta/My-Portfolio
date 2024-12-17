@@ -904,4 +904,8 @@ img {
   .footer{
     padding-block: 3rem;
   }
+
+  .scrollup{
+    right: 4rem;
+  }
 }
