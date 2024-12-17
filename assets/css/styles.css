@@ -880,4 +880,7 @@ img {
   .footer__links{
     column-gap: 3rem;
   }
+  .footer__copy{
+    margin-top: 7rem;
+  }
 }
