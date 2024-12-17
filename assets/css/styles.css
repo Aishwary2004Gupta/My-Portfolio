@@ -859,4 +859,11 @@ img {
     padding: 2rem;
     border-radius: 2rem;
   }
+
+  .contact__container{
+    grid-template-columns: 620px;
+  }
+  .contact__group{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
