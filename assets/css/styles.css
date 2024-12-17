@@ -877,4 +877,7 @@ img {
   .footer{
     padding-top: 3rem;
   }
+  .footer__links{
+    column-gap: 3rem;
+  }
 }
