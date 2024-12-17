@@ -866,4 +866,11 @@ img {
   .contact__group{
     grid-template-columns: repeat(2, 1fr);
   }
+  .contact__area{
+    height: 15rem;
+  }
+  .contact__button{
+    width: max-content;
+    justify-self: center;
+  }
 }
