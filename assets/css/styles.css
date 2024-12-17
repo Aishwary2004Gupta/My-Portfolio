@@ -848,4 +848,8 @@ img {
   .experience__container{
     row-gap: 4rem;
   }
+  .experience__card{
+    grid-template-columns: 350px 510px;
+    column-gap: 8rem;
+  }
 }
