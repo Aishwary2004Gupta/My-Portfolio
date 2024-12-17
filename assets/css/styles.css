@@ -873,4 +873,8 @@ img {
     width: max-content;
     justify-self: center;
   }
+
+  .footer{
+    padding-top: 3rem;
+  }
 }
