@@ -821,7 +821,7 @@ img {
   }
 
   .projects__container{
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 360px);
     gap: 3.5rem;
   }
   .projects__card{
