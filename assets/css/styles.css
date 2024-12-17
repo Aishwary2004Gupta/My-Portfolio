@@ -900,4 +900,8 @@ img {
     flex-direction: column;
     row-gap: 1.25rem;
   }
+
+  .footer{
+    padding-block: 3rem;
+  }
 }
