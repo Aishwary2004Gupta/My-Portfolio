@@ -846,7 +846,7 @@ img {
   }
 
   .experience__container{
-    grid-template-columns: 300px 510px;
+    /* grid-template-columns: 300px 510px; */
     column-gap: 8rem;
   }
 }
