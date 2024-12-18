@@ -61,16 +61,16 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-    // reset: true
-})
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2500,
+//     delay: 400,
+//     // reset: true
+// })
 
-sr.reveal(`.perfil, .contact__form`)
-sr.reveal(`.info`, {origin: 'left', delay: 800})
-sr.reveal(`.skills`, {origin: 'left', delay: 1000})
-sr.reveal(`.about`, {origin: 'right', delay: 1200})
-sr.reveal(`.projects__card, .coding__card, .experience__card`, {interval: 100})
+// sr.reveal(`.perfil, .contact__form`)
+// sr.reveal(`.info`, {origin: 'left', delay: 800})
+// sr.reveal(`.skills`, {origin: 'left', delay: 1000})
+// sr.reveal(`.about`, {origin: 'right', delay: 1200})
+// sr.reveal(`.projects__card, .coding__card, .experience__card`, {interval: 100})
