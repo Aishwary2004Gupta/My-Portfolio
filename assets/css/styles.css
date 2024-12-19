@@ -715,11 +715,12 @@ img {
   .home__container{
     grid-template-columns: repeat(2, 350px);
     align-items: flex-start;
+    overflow: hidden;
+
   }
 /* make change to the height as per the photo */
   .about{
     height: 600px;
-    transform: translateY(-10rem);
   }
 
   .skills{
