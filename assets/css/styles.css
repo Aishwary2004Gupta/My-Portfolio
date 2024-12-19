@@ -717,24 +717,20 @@ img {
     align-items: flex-start;
   }
 /* make change to the height as per the photo */
-  .perfil{
-    height: 400px;
-  }
-
   .about{
     height: 600px;
     transform: translateY(-10rem);
   }
 
   .skills{
-    height: 400px;
+    height: 440px;
     align-self: auto;
+    padding: 2rem;
+  }
+  .skills__item{
+    width: 2rem;
   }
 
-  .info{
-    /* height: 600px; */
-    transform: translateY(-10rem);
-  }
 
 
   .projects__container,
