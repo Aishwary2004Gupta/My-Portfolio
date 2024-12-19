@@ -816,6 +816,7 @@ img {
     align-content: center;
     height: 680px;
     transform: translateY(-0rem);
+    margin-top: -1px;
   }
   .about__image{
     height: 210px;
@@ -828,7 +829,7 @@ img {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     transform: translateY(23rem);
-    height: 311px;
+    height: 313px;
   }
   .skills__title{
     font-size: var(--h2-font-size);
