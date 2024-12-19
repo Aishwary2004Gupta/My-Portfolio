@@ -732,8 +732,6 @@ img {
     width: 2rem;
   }
 
-
-
   .projects__container,
   .coding__container{
     grid-template-columns: repeat(2, 350px);
