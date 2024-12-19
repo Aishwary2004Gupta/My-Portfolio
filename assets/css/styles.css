@@ -726,6 +726,16 @@ img {
     transform: translateY(-10rem);
   }
 
+  .skills{
+    height: 400px;
+    align-self: auto;
+  }
+
+  .info{
+    /* height: 600px; */
+    transform: translateY(-10rem);
+  }
+
 
   .projects__container,
   .coding__container{
