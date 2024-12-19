@@ -727,7 +727,7 @@ img {
   .skills{
     height: 440px;
     align-self: auto;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .skills__item{
     width: 2rem;
