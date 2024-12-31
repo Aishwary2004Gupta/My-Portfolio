@@ -7,4 +7,3 @@ Multi-Video Downloader
 Blogging Website
 Advanced-Lyrics-Finder
 ThreeJS_visuals
-Local-Party
