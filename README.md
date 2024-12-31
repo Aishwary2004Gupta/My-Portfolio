@@ -6,4 +6,3 @@ Multi-Video Downloader
 3D Block-Stacking game 
 Blogging Website
 Advanced-Lyrics-Finder
-ThreeJS_visuals
