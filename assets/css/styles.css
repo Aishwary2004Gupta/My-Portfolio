@@ -25,12 +25,10 @@
   --text-color: hsl(var(--hue), 2%, 66%);
   --body-color: hsl(var(--hue), 100%, 1%);
   --container-color: hsl(var(--hue), 2%, 10%);
-  --conic-gradient: conic-gradient(
-    from 150deg at 50% 45%,
-    hsl(var(--hue), 80%, 20%) 0deg,
-    hsl(var(--hue), 80%, 48%) 140deg,
-    hsl(var(--hue), 80%, 20%) 360deg
-  );
+  --conic-gradient: conic-gradient(from 150deg at 50% 45%,
+      hsl(var(--hue), 80%, 20%) 0deg,
+      hsl(var(--hue), 80%, 48%) 140deg,
+      hsl(var(--hue), 80%, 20%) 360deg);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -254,6 +252,7 @@ img {
   align-items: center;
   column-gap: 0.5rem;
 }
+
 /* adjust image height and width */
 .info__image {
   background: var(--conic-gradient);
@@ -723,6 +722,7 @@ img {
     align-items: flex-start;
     overflow: hidden;
   }
+
   /* make change to the height as per the photo */
   .about {
     height: 600px;
@@ -734,6 +734,7 @@ img {
     align-self: auto;
     padding: 1.5rem;
   }
+
   .skills__item {
     width: 2rem;
   }
@@ -746,6 +747,7 @@ img {
   .experience__container {
     grid-template-columns: initial;
   }
+
   .experience__card {
     grid-template-columns: 320px 380px;
     align-items: center;
@@ -756,9 +758,11 @@ img {
     grid-template-columns: repeat(2, max-content);
     align-items: center;
   }
+
   .footer__container {
     justify-content: space-between;
   }
+
   .footer__content {
     column-gap: 6rem;
   }
@@ -777,6 +781,7 @@ img {
   .section {
     padding-block: 3rem 4rem;
   }
+
   .section__title {
     font-size: var(--h1-font-size);
     margin-bottom: 4rem;
@@ -793,10 +798,12 @@ img {
     padding: 2rem;
     height: 350px;
   }
+
   /* make changes */
   .perfil__img {
     width: 100px;
   }
+
   .perfil__data {
     width: 370px;
     padding: 1.5rem;
@@ -809,6 +816,7 @@ img {
     height: 680px;
     transform: translateY(-0rem);
   }
+
   .info__name {
     font-size: var(--h2-font-size);
   }
@@ -821,9 +829,11 @@ img {
     transform: translateY(-0rem);
     margin-top: -1px;
   }
+
   .about__image {
     height: 210px;
   }
+
   .about__img {
     transform: translateY(-0.5rem);
   }
@@ -834,6 +844,7 @@ img {
     transform: translateY(23rem);
     height: 313px;
   }
+
   .skills__title {
     font-size: var(--h2-font-size);
   }
@@ -847,12 +858,15 @@ img {
     grid-template-columns: repeat(3, 300px);
     gap: 3.5rem;
   }
+
   .coding__card {
     padding-bottom: 6rem 5rem;
   }
+
   .coding__icon i {
     font-size: 2.7rem;
   }
+
   .coding__circle {
     width: 3.5rem;
     height: 3.5rem;
@@ -863,13 +877,16 @@ img {
   .experience__container {
     row-gap: 4rem;
   }
+
   .experience__card {
     grid-template-columns: 350px 510px;
     column-gap: 8rem;
   }
+
   .experience__company {
     font-size: var(--h1-font-size);
   }
+
   .experience__data {
     padding: 2rem;
     border-radius: 2rem;
@@ -878,12 +895,15 @@ img {
   .contact__container {
     grid-template-columns: 620px;
   }
+
   .contact__group {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .contact__area {
     height: 15rem;
   }
+
   .contact__button {
     width: max-content;
     justify-self: center;
@@ -892,9 +912,11 @@ img {
   .footer {
     padding-top: 3rem;
   }
+
   .footer__links {
     column-gap: 3rem;
   }
+
   .footer__copy {
     margin-top: 7rem;
   }
@@ -911,6 +933,7 @@ img {
     bottom: 0;
     margin-block: auto;
   }
+
   .nav__list {
     flex-direction: column;
     row-gap: 1.25rem;
