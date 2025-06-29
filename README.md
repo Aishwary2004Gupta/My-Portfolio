@@ -13,7 +13,7 @@ A modern, customizable portfolio website template to showcase your projects, ski
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com//My-Portfolio.git
+   git clone https://github.com/aishwary2004gupta/My-Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
